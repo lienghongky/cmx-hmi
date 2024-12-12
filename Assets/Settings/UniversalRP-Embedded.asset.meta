@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 19ba41d7c0026c3459d37c2fe90c55a0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/Settings/UniversalRP-Embedded.asset
+  uploadId: 677189

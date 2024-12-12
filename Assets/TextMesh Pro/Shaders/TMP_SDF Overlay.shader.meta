@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dd89cf5b9246416f84610a006f916af7
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  uploadId: 677189
