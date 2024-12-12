@@ -9,12 +9,13 @@ The HMI is developed in Unity 3D and is fully integrated with the LSB backbone a
 Below are some images showcasing the Human-Machine Interface (HMI) developed in Unity 3D:
 ![HMI startup](./Assets/doc/hmi.png)
 
+
 | ![HMI Image 1](./Assets/doc/hmi-p.png) | ![HMI Image 2](./Assets/doc/hmi-d4.png) |
 |:-------------------------------------:|:-------------------------------------:|
 | **HMI Parking Mode**               | **HMI Detecting Vehicles**               |
 
 ### [Lift-Splat-Blob (LSB)](https://github.com/lienghongky/cmx-lsb)
-![LSB](./Assets/doc/full.gif)
+![LSB](./Assets/doc/Overall.png)
 
 ## Features
 - **Real-Time Visualization**: Displays BEV vehicle detection results in an interactive Unity environment.
@@ -59,9 +60,9 @@ Below are some images showcasing the Human-Machine Interface (HMI) developed in 
 ## Screenshots
 ### Main Interface
 ![HMI Main Interface](./Assets/doc/hmi-cluster.png)
-
 ### BEV Output Visualization
-![BEV Visualization](./Assets/doc/full.gif)
+| ![BEV Visualization](./Assets/doc/full.gif) | ![HMI GIF](./Assets/doc/hmi-gif.gif) |
+|:------------------------------------------:|:-----------------------------------:|
 
 ## Linking to the LSB Repository
 The full backbone implementation for the Lift-Splat-Blob (LSB) method is available in the LSB repository: [cmx-lsb](https://github.com/lienghongky/cmx-lsb).
