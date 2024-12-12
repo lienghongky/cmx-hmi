@@ -7,8 +7,9 @@ The HMI is developed in Unity 3D and is fully integrated with the LSB backbone a
 
 ### HMI Visualizations
 Below are some images showcasing the Human-Machine Interface (HMI) developed in Unity 3D:
+![HMI startup](./Assets/doc/hmi.png)
 
-| ![HMI Image 1](./Assets/doc/hmi.png) | ![HMI Image 2](./Assets/doc/hmi_d.png) |
+| ![HMI Image 1](./Assets/doc/hmi-p.png) | ![HMI Image 2](./Assets/doc/hmi-d4.png) |
 |:-------------------------------------:|:-------------------------------------:|
 | **HMI Parking Mode**               | **HMI Detecting Vehicles**               |
 
@@ -57,7 +58,7 @@ Below are some images showcasing the Human-Machine Interface (HMI) developed in 
 
 ## Screenshots
 ### Main Interface
-![HMI Main Interface](./Assets/doc/hmi.png)
+![HMI Main Interface](./Assets/doc/hmi-cluster.png)
 
 ### BEV Output Visualization
 ![BEV Visualization](./Assets/doc/full.gif)

@@ -11,6 +11,7 @@ public class SafetyService : MonoBehaviour
     private List<ObjectData> objectDataList;
 
     public void SetObjectlist(List<ObjectData> objectDataList){
+        DestroyAllObjects();
         this.objectDataList = objectDataList;
         Debug.Log("Received object: " + objectDataList.Count);
         // DestroyAllObjects();
@@ -35,7 +36,6 @@ public class SafetyService : MonoBehaviour
         
         int time = (int)(Time.time % 1);
         if(time == 0){
-            DestroyAllObjects();
             
             foreach (var objData in objectDataList)
             {

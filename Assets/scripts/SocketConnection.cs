@@ -13,6 +13,21 @@ public class SocketConnection : MonoBehaviour
   // Start is called before the first frame update
   async void Start()
   {
+    //  delay invoke the connectToServer method
+    Invoke("connectToServer", 10);
+  }
+
+  void Update()
+  {
+    #if !UNITY_WEBGL || UNITY_EDITOR
+      websocket.DispatchMessageQueue();
+    #endif
+  }
+
+  async void connectToServer(){
+    // delay 5 seconds to wait for the safety service to start
+
+    
     websocket = new WebSocket("ws://localhost:8765");
 
     websocket.OnOpen += () =>
@@ -48,7 +63,7 @@ public class SocketConnection : MonoBehaviour
         {
           continue;
         }
-        var scale = 3.0f;
+        var scale = 2.7f;
         var objectdata = new SafetyService.ObjectData
           {
               Class = "Blob",
@@ -68,18 +83,8 @@ public class SocketConnection : MonoBehaviour
 
     };
 
-    // Keep sending messages at every 0.3s
-    InvokeRepeating("SendWebSocketMessage", 0.0f, 0.3f);
-
     // waiting for messages
     await websocket.Connect();
-  }
-
-  void Update()
-  {
-    #if !UNITY_WEBGL || UNITY_EDITOR
-      websocket.DispatchMessageQueue();
-    #endif
   }
 
   async void SendWebSocketMessage()
