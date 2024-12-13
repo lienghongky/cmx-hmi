@@ -72,5 +72,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Unity Technologies generated files
-/[Aa]ssets/[Uu]nity[Tt]echnologies/
+# Unity Technologies generated files 
+/[Aa]ssets/[Uu]nity[Tt]echnologies/*
+!/[Aa]ssets/[Uu]nity[Tt]echnologies/HMITemplate/[Ss]cripts/
+!Assets/UnityTechnologies/HMITemplate/Scripts

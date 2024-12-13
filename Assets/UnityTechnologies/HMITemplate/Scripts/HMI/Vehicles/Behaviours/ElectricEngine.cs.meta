@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 990c38c42ccb10a47983def35a43087e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/Vehicles/Behaviours/ElectricEngine.cs
+  uploadId: 677189

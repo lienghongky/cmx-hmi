@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6a6f0b5c5b240d34ab5c19bc80c0d940
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/UI/IVI/Contacts/ContactUpdater.cs
+  uploadId: 677189

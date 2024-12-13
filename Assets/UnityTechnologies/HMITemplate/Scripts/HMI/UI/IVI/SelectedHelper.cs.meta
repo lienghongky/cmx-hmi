@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e40f9b9b2da6a6e4bb525dec18e64faa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/UI/IVI/SelectedHelper.cs
+  uploadId: 677189

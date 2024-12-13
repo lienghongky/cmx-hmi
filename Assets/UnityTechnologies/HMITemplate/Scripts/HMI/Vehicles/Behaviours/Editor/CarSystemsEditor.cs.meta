@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5f4cdbec07d04e140bd07b579b67fde1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/Vehicles/Behaviours/Editor/CarSystemsEditor.cs
+  uploadId: 677189

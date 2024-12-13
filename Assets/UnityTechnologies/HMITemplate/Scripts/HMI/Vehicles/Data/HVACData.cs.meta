@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a95916ee5e4b6c14dad424a9c660dc9e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/Vehicles/Data/HVACData.cs
+  uploadId: 677189

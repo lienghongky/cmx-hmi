@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 60c29000288c81646911366a6606a4e2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/Vehicles/Behaviours/RegenerativeBraking.cs
+  uploadId: 677189

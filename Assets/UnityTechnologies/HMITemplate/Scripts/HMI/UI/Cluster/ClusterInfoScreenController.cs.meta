@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 350220ffdb9d8c94b94259d8f92d0bea
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/UI/Cluster/ClusterInfoScreenController.cs
+  uploadId: 677189

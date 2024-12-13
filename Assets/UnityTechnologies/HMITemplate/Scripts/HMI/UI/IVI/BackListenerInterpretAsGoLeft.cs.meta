@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 30a7f394c7bbe92468152f8437a27b51
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/UI/IVI/BackListenerInterpretAsGoLeft.cs
+  uploadId: 677189

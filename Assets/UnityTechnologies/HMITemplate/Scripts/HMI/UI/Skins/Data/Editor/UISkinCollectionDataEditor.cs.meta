@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1d309df549d60354d89fe81d397ef2c0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/UI/Skins/Data/Editor/UISkinCollectionDataEditor.cs
+  uploadId: 677189

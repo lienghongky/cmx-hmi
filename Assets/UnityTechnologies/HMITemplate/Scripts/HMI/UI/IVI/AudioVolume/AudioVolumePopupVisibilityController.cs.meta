@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d477b205b4bc19240a6272dba71a3ee3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/UI/IVI/AudioVolume/AudioVolumePopupVisibilityController.cs
+  uploadId: 677189

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fb03fc56f1b0892429d6cf23b9dcc01d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/ChargingStations/Data/ChargingStationData.cs
+  uploadId: 677189

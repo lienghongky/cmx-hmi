@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: feff001cb2c5926428e93266d6367b78
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/Vehicles/Behaviours/Editor/ElectricVehicleDataProviderEditor.cs
+  uploadId: 677189

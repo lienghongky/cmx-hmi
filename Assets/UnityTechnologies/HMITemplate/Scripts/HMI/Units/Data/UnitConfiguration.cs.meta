@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6b06c27fd9f5a6a41a70d0bfd3cbbdfc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/Units/Data/UnitConfiguration.cs
+  uploadId: 677189

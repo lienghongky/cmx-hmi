@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c5483c37d82b61a4286d13dce95a1317
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/UI/ToggleButtonSpriteSwapOnOff.cs
+  uploadId: 677189

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7810cf1974f5cbe4b84d828ffeb75527
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201095
+  packageName: Automotive HMI Template
+  packageVersion: 1.2
+  assetPath: Assets/UnityTechnologies/HMITemplate/Scripts/HMI/Vehicles/Behaviours/Mocks/MockEnergyConsumptionLogger.cs
+  uploadId: 677189
