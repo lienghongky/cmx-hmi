@@ -14,6 +14,9 @@ public class CameraScript : MonoBehaviour
     private WebCamTexture webcamTexture;
     private RawImage display;
 
+    private int SelectedCameraIndex = -1;
+    private int DetectedCameras = 0;
+
 #if UNITY_IOS || UNITY_WEBGL
     private bool CheckPermissionAndRaiseCallbackIfGranted(UserAuthorization authenticationType, Action authenticationGrantedAction)
     {
@@ -64,29 +67,44 @@ public class CameraScript : MonoBehaviour
 
     void Start()
     {
-#if UNITY_IOS || UNITY_WEBGL
+
+    }
+    void OnDisable()
+    {
+        webcamTexture.Stop();
+    }
+
+    void OnEnable()
+    {
+        // AskCameraPermissionAndInitialize();
+    }
+
+
+
+    public void AskCameraPermissionAndInitialize()
+    {
+        #if UNITY_IOS || UNITY_WEBGL
         StartCoroutine(AskForPermissionIfRequired(UserAuthorization.WebCam, () => { InitializeCamera(); }));
-        return;
-#elif UNITY_ANDROID
-        if (!Permission.HasUserAuthorizedPermission(Permission.Camera))
-        {
-            AskCameraPermission();
-            return;
-        }
-#endif
-        InitializeCamera();
+                return;
+        #elif UNITY_ANDROID
+                if (!Permission.HasUserAuthorizedPermission(Permission.Camera))
+                {
+                    AskCameraPermission();
+                    return;
+                }
+        #endif
+                InitializeCamera();
     }
 
     private void InitializeCamera()
     {
         // Get list of available cameras
         WebCamDevice[] devices = WebCamTexture.devices;
-
+        DetectedCameras = devices.Length;
         // Log available cameras
         for (int i = 0; i < devices.Length; i++)
         {
             Debug.Log($"Camera {i}: {devices[i].name}");
-
         }
 
         if (devices.Length > 0)
@@ -125,5 +143,22 @@ public class CameraScript : MonoBehaviour
         {
             webcamTexture.Stop();
         }
+    }
+
+
+    public void SwitchCamera ()
+    {
+        if (DetectedCameras < 2)
+        {
+            Debug.LogWarning("Only one camera detected. Cannot switch cameras.");
+            return;
+        }
+
+        SelectedCameraIndex = (SelectedCameraIndex + 1) % DetectedCameras;
+        string selectedCamera = WebCamTexture.devices[SelectedCameraIndex].name;
+        Debug.Log($"Switching to camera {SelectedCameraIndex}: {selectedCamera}");
+        webcamTexture.Stop();
+        webcamTexture.deviceName = selectedCamera;
+        webcamTexture.Play();
     }
 }

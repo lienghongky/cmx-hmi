@@ -14,8 +14,14 @@ Below are some images showcasing the Human-Machine Interface (HMI) developed in 
 |:-------------------------------------:|:-------------------------------------:|
 | **HMI Parking Mode**               | **HMI Detecting Vehicles**               |
 
+<p align="center">
+    <img src="./Assets/doc/hmi-gif.gif" alt="HMI Park">
+</p>
+<hr>
+
 ### [Lift-Splat-Blob (LSB)](https://github.com/lienghongky/cmx-lsb)
 ![LSB](./Assets/doc/Overall.png)
+![LSB](./Assets/doc/output.gif)
 
 ## Features
 - **Real-Time Visualization**: Displays BEV vehicle detection results in an interactive Unity environment.
